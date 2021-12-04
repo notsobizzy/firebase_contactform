@@ -4,7 +4,7 @@ const firebaseConfig = {
   authDomain: "cloudswap-form-866c8.firebaseapp.com",
   databaseURL: "https://test-form-d3492.firebaseio.com",
   projectId: "cloudswap-form-866c8",
-  storageBucket: "cloudswap-form-866c8.appspot.com",
+  storageBucket: ""cloudswap-form-866c8.appspot.com",
   messagingSenderId: "742881945100",
   appId: "1:742881945100:web:45a9ba0e95ad30a8cf7029"
 };
