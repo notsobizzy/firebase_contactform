@@ -1,5 +1,5 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyDwQ4FRpbccTE6AJqRcU5LG5N3QVusxyxE",
   authDomain: "cloudswap-form-866c8.firebaseapp.com",
   databaseURL: "https://test-form-d3492.firebaseio.com",
@@ -9,7 +9,7 @@ var firebaseConfig = {
   appId: "1:742881945100:web:45a9ba0e95ad30a8cf7029"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 // Refernece contactInfo collections
 let contactInfo = firebase.database().ref("infos");
